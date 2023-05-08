@@ -9,7 +9,7 @@
     display: flex;
     border: 1px solid black;
     border-radius: 3px;
-
+    
     
 }
 
@@ -35,6 +35,28 @@
 }
 
 .element {
-    width: 50%;
+    
     box-sizing: border-box;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.right {
+    width: 40%;
+}
+
+.left {
+    width: 60%;
+}
+
+.form {
+    background-color: rgb(223, 238, 243);
+    border-radius: 5%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
