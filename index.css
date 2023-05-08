@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 1em 2em;
+}
+
+.navigation {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+
+    
+}
+
+.nav-item {
+    min-width: 80px;
+    text-align: center;
+    padding: 0.2em 0.1em;
+    
+}
+
+.nav-center {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.banner {
+    text-align: center;
+    padding: 1em;
+}
+
+.main-content{
+    display: flex;
+}
+
+.element {
+    width: 50%;
+    box-sizing: border-box;
+}
