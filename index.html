@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Top Rated E-Groceries Shop in Indonesia</title>
+        <title>Fresh Grocery | Top Rated E-Groceries Shop in Indonesia</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <header class="header">
-            <div class="logo">M</div>
+            <div class="logo"><img src="C:\Revou Course\assets\logo.jpg" height="40px" alt="logo"></div>
             <div class="navigation">
                 <div class="nav-item">Home</div>
                 <div class="nav-item nav-center">Our Package</div>
@@ -19,34 +19,51 @@
         <main >
                 <section id="Home">
                     <div class="banner">
-                        <h1>Top Rated E-Groceries Shop in Indonesia</h1>
-                        <p>Everyday with the best ingredients</p>
+                        <h1 style="font-size: xx-large;">Top Rated E-Groceries Shop in Indonesia</h1>
+                        <p style="font-size: large;">Everyday with the best ingredients</p>
                     </div>
                 </section>
                 <section class="main-content">
                     <div class="element left">
-                        <img src="C:\Revou Course\assets\banner.jpg" alt="Picture of Fruits and Vegetables" width="100%">
+                        <div><img src="C:\Revou Course\assets\banner.jpg" class="img-banner" alt="Picture of Fruits and Vegetables" width="100%"></div>
+                        <div class="customer">
+                                <div class="review">
+                                    <p>“Purchase fresh fruit and vegetables here every day.”</p>
+                                    </div>
+                                <div class="userdetails">
+                                  <div class="imgbox">
+                                    <img src="C:\Revou Course\assets\customer-reviewer.jpg" alt="Florence Hughes">
+                                  </div>
+                                  <div class="detbox">
+                                    <div class="name">Florence Hughes</div>
+                                    <div class="designation">Housewife, 28</div>
+                                  </div>
+                                </div>
+                        </div>
                     </div>
                     <div class="element right">
                         <div class="form">
-                            <h3>Contact Us</h3>
-                            <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
-                            <label for="name">Your Name</label>
-                            <input class="input" id="name" name="name">
-                            <label for="email">Email Address</label>
-                            <input class="input" id="email" name="email">
-                            <label for="interest">What are you interested in?</label>
-                            <select>
+                            <div class="form-title" style="font-size: xx-large; font-weight: bold;">Contact Us</div>
+                            <div class="form-title" style="font-size: large;">Our sales will contact you 1x24 hours after we receive your data</div>
+                            <label  for="name">Your Name</label>
+                            <input class="input" id="name" name="name"><br>
+                            <label  for="email">Email Address</label>
+                            <input class="input" id="email" name="email"><br>
+                            <label  for="interest">What are you interested in?</label>
+                            <select class="input">
                                 <option>Fresh Vegetables</option>
                                 <option>Fresh Fruits</option>
                                 <option>Instant Delivery</option>
                                 <option>Kitchen Ingredients</option>
                                 <option>Kitchen Set</option>
                                 <option>Bundling Set</option>
-                            </select>
-                            <input type="submit" value="SUBMIT">
+                            </select><br>
+                            <input class="input send" type="submit" value="SEND">
                         </div>
                     </div>
+
+                </section>
+                          
                 </section>
         </main>
     </body>
