@@ -35,16 +35,11 @@
                                     <img src="C:\Revou Course\assets\customer-reviewer.jpg" alt="Florence Hughes">
                                   </div>
                                   <div class="detbox">
-                                    <div class="name">Florence Hughes</div>
+                                    <div class="cust-name">Florence Hughes</div>
                                     <div class="designation">Housewife, 28</div>
                                   </div>
                                 </div>
                             </div><br>
-                            <div><svg class="line" viewBox="0" xmlns="http://www.w3.org/2000/svg" height="30px">
-                                <line x1="180" y1="50%" x2="90" y2="50%" stroke="black" opacity="70%"  />
-                                     <!-- If you do not specify the stroke
-                                     color the line will not be visible -->
-                            </svg></div>
                     <div class="more-info">
                             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et vestibulum ipsum. Mauris ac sagittis sapien. Fusce at nisl dolor. Etiam ac laoreet sapien.</h3>
                             <div class="campaign">
@@ -64,13 +59,17 @@
                         </div>
                     </div>
                     <div class="element right">
-                        <div class="form">
+
+                        <form class="form" name="order-form" onsubmit="return validateForm()">
                             <div class="form-title" style="font-size: xx-large; font-weight: bold;">Contact Us</div>
                             <div class="form-title" style="font-size: large; opacity: 70%;">Our sales will contact you 1x24 hours after we receive your data</div>
+                            
                             <label  for="name">Your Name</label>
-                            <input class="input" id="name" name="name"><br>
-                            <label  for="email">Email Address</label>
-                            <input class="input" id="email" name="email"><br>
+                            <input type="text" class="input" id="name" name="name" required><br>
+
+                                <label  for="email">Email Address</label>
+                                <input type="email" class="input" id="email" name="email" required><br>
+
                             <label  for="interest">What are you interested in?</label>
                             <select class="input">
                                 <option>Fresh Vegetables</option>
@@ -80,8 +79,30 @@
                                 <option>Kitchen Set</option>
                                 <option>Bundling Set</option>
                             </select><br>
-                            <input class="input send" type="submit" value="SEND">
-                        </div>
+                            
+                            <input class="input send" type="submit" value="SUBMIT">
+                        </form>
+<!--script form validation-->
+                        <script>
+                            function validateForm() {
+                                var name = document.getElementById("name").value;
+                                var email = document.getElementById("email").value;
+
+                                if (name === ""){
+                                    alert("Name must be filled out");
+                                    return false;
+                                }
+
+                                if (email === "") {
+                                    alert("Email must be filled out");
+                                    return false;
+                                }
+
+                                return true
+                            }
+                        </script>
+
+
                     </div>
                 </section><br>
                 <section class="package-banner" id="package-banner">
