@@ -179,7 +179,7 @@ opacity: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2em;
-    
+    width: 100%;
   }
 
 .wrapper-content {
