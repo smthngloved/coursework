@@ -29,6 +29,11 @@ body {
     border-right: 1px solid black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .banner {
     text-align: center;
     padding: 1em;
