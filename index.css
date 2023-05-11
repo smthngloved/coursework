@@ -70,7 +70,7 @@ a {
     font-size: 40px;
 }
 
-.home p {
+.home h3 {
     font-size: 20px;
     opacity: 70%;
 }
@@ -123,7 +123,7 @@ a {
     }
 }
 
-.review p {
+.review h3 {
     opacity: 70%;
 }
 

@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<!--navigation-->
     <header class="header-wrapper">
         <img class="logo" src="assets/logo.jpg" alt="logo">
         <div class="menu">
@@ -16,18 +15,15 @@
     </header>
 
     <main>
-<!--home title-->
         <section id="home" class="home">
             <h1>Top Rated E-Groceries Shop in Indonesia</h1>
-            <p>Everyday with the best ingredients</p>
+            <h3>Everyday with the best ingredients</h3>
         </section>
         
-<!--home contents-->
         <section class="main-content">
 
-    <!--left content-->  
             <div class="element left">
-        <!--banner section-->
+
                 <div>
                     <img class="img-slideshow" src="assets/banner.jpg" alt="" width="100%">
                     <img class="img-slideshow" src="assets/banner1.jpg" alt="" width="100%">
@@ -37,8 +33,6 @@
                     <button onclick="plusDivs(-1)">Previous</button>
                     <button onclick="plusDivs(1)">Next</button>
                 </div>
-
-            <!--banner slide script-->
                 
                 <script>
                     var slideIndex = 1;
@@ -68,14 +62,9 @@
 
                 </script>
 
-            <!--end of banner slide script-->
-
-                <!--end of banner section-->
-
-        <!--customer review-->  
         <div>
                 <div class="customer review">
-                    <p>“I purchase fresh fruit and vegetables here every day.”</p>
+                    <h3>“I purchase fresh fruit and vegetables here every day.”</h3>
                 </div>
 
                 <div class="customer userdetails">
@@ -93,9 +82,9 @@
 
                 <div class="bottom-border"></div>
         </div>
-                <!--end of customer section-->
 
-    <br><!--benefits-->  
+
+    <br>
                 <div class="content-benefit">
                     <h3>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et vestibulum ipsum. Mauris ac sagittis sapien. Fusce at nisl dolor. Etiam ac laoreet sapien.
@@ -110,14 +99,14 @@
                     </div>
                 </div>
 
-            </div> <!--end of left content-->
+            </div> 
             
-<br><!--right content-->    
+<br>   
             <div class="element right" id="form">
-                <!--form description-->
+
                 <form class="form" name="order-form" onsubmit="return validateForm()">
-                    <div class="form-title" style="font-size: xx-large; font-weight: bold;">Contact Us</div>
-                    <div class="form-title" style="font-size: large; opacity: 70%;">Our sales will contact you 1x24 hours after we receive your data</div>
+                    <h2 class="form-title" style="font-size: xx-large; font-weight: bold;">Contact Us</h2>
+                    <h3 class="form-title" style="font-size: large; opacity: 70%;">Our sales will contact you 1x24 hours after we receive your data</h3>
                     
                     <label  for="name">Your Name</label>
                     <input type="text" class="input" id="name" name="name" required><br>
@@ -135,7 +124,6 @@
                     <input class="input send" type="submit" value="SUBMIT">
                 </form>
 
-<!--script form validation-->
                 <script>
                     function validateForm() {
                         var name = document.getElementById("name").value;
@@ -176,22 +164,22 @@
 
                         return true
                     }
-                </script> <!--end of script form validation-->
+                </script>
             </div>
 
-            </div> <!--end of right content-->
+            </div> 
 
 
-        </section> <!--end of home content-->
+        </section> 
 
 <br>
-<!--package section-->
+
         <section id="package" class="package">
             <div class="package-banner" id="package-banner">
                 <h1>Our Package</h1>
             </div>
 
-            <!--package details-->
+
             <div class="package-wrapper">
                 <div class="package-item">
                     <div class="package-details">
@@ -235,11 +223,11 @@
                     </div>
                 </div>
 
-            </div> <!-- end of package details-->
+            </div> 
 
-        </section> <!--end of package section-->
+        </section> 
 
-<!--call us section-->
+
         <section id="call-us" class="call-us">
             <h1>Call Us!</h1>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -248,7 +236,7 @@
                             <a href="#form" id="shop">Call to Shop</a>
                         </button>
                     </div><br><br>
-        </section> <!--end of call us section-->
+        </section> 
 
     </main>
 
