@@ -321,3 +321,13 @@ li span {
     text-align: center;
 }
 
+.terms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.footer h3 {
+        font-size: 1.5em;
+}
